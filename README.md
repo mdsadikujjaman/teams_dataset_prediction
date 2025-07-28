@@ -31,15 +31,40 @@ The dataset contains various team statistics such as:
   - Error Ratio
 
 
-## 📁 Result
+## 📌 Result
 
 <img width="1078" height="582" alt="Image" src="https://github.com/user-attachments/assets/dbeb2c1a-f64f-48ca-9937-bda77f5418d9" />
 <img width="1050" height="448" alt="Image" src="https://github.com/user-attachments/assets/156f13cc-ca5a-4b6d-a565-e9737b914cb9" />
 
 
-## ⚙️ How to Run
+- Linear Regression and XGBoost were applied to predict key target variables.
+- XGBoost showed stronger performance with higher R² scores.
+- Strong correlations were identified between goals, wins, and points.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/teams-dataset-prediction.git
-   cd teams-dataset-prediction
+
+## 📎 Visualizations
+- Heatmaps for feature correlation
+- Scatter plots of actual vs. predicted values
+- Distribution plots of key statistics
+
+
+## 🧠 Learnings & Insights
+- Preprocessing plays a crucial role in improving model performance.
+- XGBoost outperformed traditional regression on non-linear relationships.
+- Feature engineering can be further explored to improve prediction.
+
+## 📚 Future Improvements
+- Implement cross-validation techniques
+- Add hyperparameter tuning with GridSearchCV
+- Try additional models like Random Forest, Lasso, or Ridge
+- Deploy the model using Streamlit or Flask
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork the repository and submit a pull request with improvements, bug fixes, or feature additions.
+
+## 🧑‍💻 Author
+
+- [GitHub](https://github.com/mdsadikujjaman)
+- [LinkedIn](https://www.linkedin.com/in/sadikujjaman)
